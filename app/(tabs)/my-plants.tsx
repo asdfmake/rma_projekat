@@ -135,7 +135,7 @@ export default function MyPlantsScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, padding: 16, gap: 8 },
+  container: { flex: 1, padding: 16, gap: 8, backgroundColor: "white" },
   title: { fontSize: 18, fontWeight: "700" },
   formRow: { gap: 10 },
   input: {

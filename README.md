@@ -48,3 +48,25 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+
+U listi ispod možete pročitati osnovne projektne zahteve za završni ispit: 
+Aplikacija treba da sadrži bar 3 aktivnosti (prozora)
+Aplikacija treba da omogućava navigaciju i prenos podataka između aktivnosti
+UI/UX aplikacije mora da bude smislen
+Aplikacija treba da skladišti neke podatke lokalno, unutar aplikacije
+Projektni zahtevi za najveće ocene: 
+Za maksimalne bodove - Aplikacija treba da komunicira sa eksternim API-jem asinhrono (coroutines upotrebiti)
+Rad sa API-jem se može zameniti lokalnom SQLite bazom, ali u tom slučaju nije moguće ostvariti maksimalan broj poena
+Aplikacija treba da implementira CRUD operacije
+Ukoliko poslovna logika dozvoljava funkcionalnosti treba podeliti na fragmente
+Ukoliko postoje fragmenti, potrebno je implementirati i komunikaciju između fragmenata
+Ukoliko aplikacija rukuje većom količinom podataka potrebno je implementirati i pretragu
+Tema aplikacije je slobodna, ali ukoliko bude veliki broj sličnih tema kolege treba da očekuju rigoroznije ispitivanje. Dakle, izbegavati česte teme kao što su movie app, kviz, anime app i slične šablonske teme. Kreativnost i inovativnost su kriterijumi koji takođe važe na ispitu i ovime se svi studenti pozivaju a naprave aplikacije koje bi u teoriji mogli da prodaju kao proizvode.
+
+1. prvi prozor intro, drugi prozor my plants, treci plant doctor
+2. ima navigaciju
+3. UI/UX grmi
+4. skladisti
+5. Ima api
+6. Crud sljaka lokalno
