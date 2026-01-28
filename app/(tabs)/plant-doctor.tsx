@@ -17,12 +17,12 @@ type DoctorResponse = {
   tips?: string[];
 };
 
-const BACKEND_URL = "https://YOUR_BACKEND_HOST/plant-doctor";
+const BACKEND_URL = "https://192.168.1.2:5000/embeddings";
 
 const EXAMPLES = [
   {
     id: "apple_healthy",
-    label: "apple_healthy spots",
+    label: "apple_healthy",
     source: require("../../assets/examples/apple_healthy.png"),
   },
   {

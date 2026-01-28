@@ -49,7 +49,7 @@ export default function MyPlantsScreen() {
         <TextInput
           value={name}
           onChangeText={setName}
-          placeholder="Name (e.g., Monstera)"
+          placeholder="Plant name"
           style={styles.input}
         />
         <TextInput

@@ -59,7 +59,7 @@ export default function WeatherScreen() {
   const saveRegion = async (region: string) => {
     const value = region.trim();
     if (!value) {
-      Alert.alert("Region required", "Please enter your city/region (e.g., London).");
+      Alert.alert("Region required", "Please enter your city or region");
       return;
     }
     try {
@@ -145,7 +145,7 @@ export default function WeatherScreen() {
           <TextInput
             value={regionInput}
             onChangeText={setRegionInput}
-            placeholder="Enter city/region (e.g., Berlin)"
+            placeholder="Enter city name"
             autoCapitalize="words"
             style={styles.input}
           />
