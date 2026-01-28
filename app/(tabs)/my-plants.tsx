@@ -42,7 +42,7 @@ export default function MyPlantsScreen() {
   };
 
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, { backgroundColor: "white"}]}>
       <Text style={styles.title}>Add a plant</Text>
 
       <View style={styles.formRow}>
