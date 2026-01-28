@@ -205,12 +205,24 @@ export default function PlantDoctorScreen() {
 
 const styles = StyleSheet.create({
   container: { flex: 1, padding: 16, gap: 12 },
-  center: { flex: 1, alignItems: "center", justifyContent: "center", padding: 16 },
+  center: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+    padding: 16,
+    backgroundColor: "white",
+  },
   cameraWrap: {
     height: 360,
     borderRadius: 16,
     overflow: "hidden",
-    backgroundColor: "#ffffff",
+    backgroundColor: "white",
+  },
+  cameraPlaceholder: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: "white",
+    alignItems: "center",
+    justifyContent: "center",
   },
   primaryBtn: {
     padding: 12,
